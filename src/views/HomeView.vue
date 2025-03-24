@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import AccountManagementForm from '../components/AccountManagementForm.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <AccountManagementForm />
   </main>
 </template>
