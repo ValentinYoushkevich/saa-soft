@@ -10,6 +10,9 @@
 <script setup lang="ts">
 import { useAccountsStore } from '@/stores/accounts';
 
+defineOptions({
+  name: 'AddAccount'
+});
 const accountsStore = useAccountsStore();
 const createAccount = () => {
   accountsStore.addAccount();
